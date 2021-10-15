@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAC,CACV,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,cAAc,CACvB,UAAU,CAAE,iCAAiC,CAAC,MAAM,CAAC,YAAc,CAAC,SAAS,CAC7E,cAAc,CAAE,SAAS,CAM5B,AALI,AAAD,oBAAQ,AAAC,CACL,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CACnB",
+    "sources": [
+        "../blocks/consultation.scss"
+    ],
+    "names": [],
+    "file": "consultation.min.css"
+}
