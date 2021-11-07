@@ -1,3 +1,20 @@
+@media (max-width: 991px) {
+    .catalog{
+        &__content {
+            &_active {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}
 @media (max-width: 767px) {
     .promo {
         &__header {
@@ -64,6 +81,11 @@
             padding-bottom: 5px;
         }
     }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -98,5 +120,14 @@
             width: auto;
         }
     }
-    
+    .footer {
+        &__info {
+            
+        }
+    }
+    .modal {
+        &__close {
+            transform: translate(-170%, 14%);
+        }
+    }
 }
