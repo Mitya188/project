@@ -86,6 +86,13 @@
             flex-direction: column;
         }
     }
+    .advantages {
+        &__icon {
+            &_animated {
+                padding: 12px 0 0 0;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -103,10 +110,9 @@
             }
             &__official{
                 margin-bottom: 15px;
-                font-size: 20px;
                 position: absolute;
                 left: 20px;
-                font-size: 13px;
+                font-size: 11px;
                 top: 30px;
             }
         }
@@ -118,11 +124,6 @@
         }
         &__icons {
             width: auto;
-        }
-    }
-    .footer {
-        &__info {
-            
         }
     }
     .modal {
